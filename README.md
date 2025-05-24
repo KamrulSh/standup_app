@@ -23,3 +23,9 @@ Add tailwind and daisyUI:
 
 Add controller:
 `rails g controller Activity mine feed`
+
+Test github actions for linting:
+`rubocop -f github`
+
+Testing Rspec:
+`rspec`
