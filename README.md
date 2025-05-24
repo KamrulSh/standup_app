@@ -11,3 +11,15 @@ Things you may want to cover:
 
 Create app :
 `rails new standup_app -T --database=postgresql`
+
+Add testing gem :
+`bundle add rspec-rails`
+Generate test :
+`rails generate rspec:install`
+
+Add tailwind and daisyUI:
+`bundle add tailwindcss-rails`
+`rails tailwindcss:install`
+
+Add controller:
+`rails g controller Activity mine feed`
