@@ -29,3 +29,15 @@ Test github actions for linting:
 
 Testing Rspec:
 `rspec`
+
+Add UUID extension:
+`rails g migration enable_extension_for_uuid`
+
+Add code in migration file:
+`enable_extension 'pgcrypto' unless extension_enabled?('pgcrypto')`
+
+Add User model:
+`rails g model User name:string` 
+
+Add time_zone:
+`rails g migration AddTimeZoneToUsers time_zone:string`
