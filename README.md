@@ -41,3 +41,9 @@ Add User model:
 
 Add time_zone:
 `rails g migration AddTimeZoneToUsers time_zone:string`
+
+Install Devise:
+`bundle add devise`
+`rails g devise:install`
+`rails g devise User`
+`rails g devise:views`

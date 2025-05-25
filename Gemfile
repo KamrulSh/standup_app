@@ -51,6 +51,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
   gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails"
+  gem "capybara"
+  gem "simplecov"
 end
 
 group :development do
@@ -59,3 +61,5 @@ group :development do
 end
 
 gem "tailwindcss-rails", "~> 4.2"
+
+gem "devise", "~> 4.9"
