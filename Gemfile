@@ -52,7 +52,7 @@ group :development, :test do
   gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails"
   gem "capybara"
-  gem "simplecov"
+  gem "simplecov", require: false, group: :test
 end
 
 group :development do

@@ -37,7 +37,7 @@ Add code in migration file:
 `enable_extension 'pgcrypto' unless extension_enabled?('pgcrypto')`
 
 Add User model:
-`rails g model User name:string` 
+`rails g model User name:string`
 
 Add time_zone:
 `rails g migration AddTimeZoneToUsers time_zone:string`
@@ -47,3 +47,9 @@ Install Devise:
 `rails g devise:install`
 `rails g devise User`
 `rails g devise:views`
+
+Add simplecov:
+`gem 'simplecov', require: false, group: :test`
+and the run `rspec` and add `coverage` in `.gitignore`
+
+
